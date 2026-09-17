@@ -20,14 +20,37 @@ x if x >= 0.
 ## Program:
 ```
 /*
-Program to implement Reverse a String
-Developed by: 
-Register Number:  
+Program to implement Reverse a String :
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] nums = new int[n];
+        for (int i = 0; i < n; i++) {
+            nums[i] = sc.nextInt();
+        }
+        int k = sc.nextInt();
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (Math.abs(nums[i] - nums[j]) == k) {
+                    count++;
+                }
+            }
+        }
+        System.out.println(count);
+    }
+}
+Developed by: ibrahim fedah s
+Register Number: 212223240056
 */
 ```
 
 ## Output:
 
+<img width="1025" height="359" alt="image" src="https://github.com/user-attachments/assets/61106ebd-2297-4575-8471-1c547b37f011" />
 
 
 ## Result:
