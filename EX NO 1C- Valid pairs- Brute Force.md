@@ -11,11 +11,11 @@ x if x >= 0.
 -x if x < 0.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1. Start
+2. Read the size of the array, the array elements, and the value of k.
+3. Initialize count = 0.
+4. Compare every pair of elements where i < j. If |nums[i] - nums[j]| == k, increment count.
+5. Print count and Stop. 
 
 ## Program:
 ```
