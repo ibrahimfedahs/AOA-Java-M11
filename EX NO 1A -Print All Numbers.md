@@ -1,6 +1,6 @@
 
 # EX 1A Print All Numbers 
-## DATE:
+## DATE: 12-06-2026
 ## AIM:
 To Write a Java program that takes an integer input N from the user and prints all the numbers from 1 to N, separated by spaces, on a single line..
 
@@ -14,6 +14,9 @@ To Write a Java program that takes an integer input N from the user and prints a
 ## Program:
 ```
 /*
+Developed by: ibrahim fedah s
+Register Number: 212223240056
+
 Program to implement Reverse a String :
 
 import java.util.Scanner;
